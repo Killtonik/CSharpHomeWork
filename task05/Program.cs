@@ -21,5 +21,5 @@ for (int i = - numN; i <= numN; i++)
 {
     Console.Write(i);
     if(i<numN);
-    System.Console.Write(", ");
+    System.Console.WriteLine(", ");
 }
