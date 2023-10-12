@@ -6,7 +6,7 @@
 System.Console.Write("Введи число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if((number % 2) == 0 )
+if(number % 2 == 0 )
 {
 Console.WriteLine($"Чётное {number}");
 }
