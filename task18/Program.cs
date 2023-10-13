@@ -8,26 +8,26 @@ int number = int.Parse(Console.ReadLine());
 
 if (number == 1)
 {
-    int umbrX = new Random().Next(0, 100);
-    int umbrY = new Random().Next(0, 100);
-    System.Console.Write($"Точка координат Y{umbrY} X{umbrX}");
+    int umbrX = new Random().Next(0, 1000);
+    int umbrY = new Random().Next(0, 1000);
+    System.Console.WriteLine($"Точка координат Y{umbrY} X{umbrX}");
 }
 if (number == 2)
 {
-    int umbrX = new Random().Next(-0, -100);
-    int umbrY = new Random().Next(0, 100);
-    System.Console.Write($"Точка координат Y{umbrY} X{umbrX}");
+    int umbrX = new Random().Next(-999, 0);
+    int umbrY = new Random().Next(0, 1000);
+    System.Console.WriteLine($"Точка координат Y{umbrY} X{umbrX}");
 }
 if (number == 3)
 {
-    int umbrX = new Random().Next(-0, -100);
-    int umbrY = new Random().Next(-0, -100);
+    int umbrX = new Random().Next(-999, 0);
+    int umbrY = new Random().Next(-999, 0);
     System.Console.Write($"Точка координат Y{umbrY} X{umbrX}");
 }
 if (number == 4)
 {
-    int umbrX = new Random().Next(0, 100);
-    int umbrY = new Random().Next(-0, -100);
+    int umbrX = new Random().Next(0, 1000);
+    int umbrY = new Random().Next(-999, -0);
     System.Console.Write($"Точка координат Y{umbrY} X{umbrX}");
 }
 if (number == 0 && number > 4)
