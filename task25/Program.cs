@@ -9,11 +9,11 @@ int numA = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Задай B");
 int numB = Convert.ToInt32(Console.ReadLine());
 
-/void NatStep(int a, int b)
+void NatStep(int a, int b)
 {
     double result = Math.Pow(a, b);
     System.Console.WriteLine(result);
-}/
+}
 
 NatStep(numA, numB);
 
